@@ -2,7 +2,9 @@ lockfileVersion: 5.3
 
 specifiers:
   '@babel/core': ^7.18.9
+  '@chakra-ui/icons': ^2.0.4
   '@chakra-ui/react': ^2.2.4
+  '@chakra-ui/system': ^2.2.2
   '@emotion/react': ^11.9.3
   '@emotion/styled': ^11.9.3
   '@types/node': 18.0.6
@@ -18,7 +20,9 @@ specifiers:
 
 dependencies:
   '@babel/core': 7.18.9
+  '@chakra-ui/icons': 2.0.4_c54ebec17a4e1e2cb3cd00857613470a
   '@chakra-ui/react': 2.2.4_9a13a6a5ca9ce4ef7f7c54e99b24fd07
+  '@chakra-ui/system': 2.2.2_28db0a4ca0163f5d998b133de2adf2dc
   '@emotion/react': 11.9.3_96543585b339e7caed3567fc56fe9e68
   '@emotion/styled': 11.9.3_c6afed0fa10a1ad1311271315df93091
   framer-motion: 6.5.1_react-dom@18.2.0+react@18.2.0
@@ -487,6 +491,18 @@ packages:
     dependencies:
       '@chakra-ui/system': 2.2.2_28db0a4ca0163f5d998b133de2adf2dc
       '@chakra-ui/utils': 2.0.4
+      react: 18.2.0
+    dev: false
+
+  /@chakra-ui/icons/2.0.4_c54ebec17a4e1e2cb3cd00857613470a:
+    resolution: {integrity: sha512-/Xh6UtIilFhSCxZ6pKmB3zaatvGMc+IAvPb0TvlegWfNaLI7XwHWkEoK+GxYXV02wT/yqmup2gd41/OL3S0YLg==}
+    peerDependencies:
+      '@chakra-ui/system': '>=2.0.0-next.0'
+      react: '>=18'
+    dependencies:
+      '@chakra-ui/icon': 3.0.4_c54ebec17a4e1e2cb3cd00857613470a
+      '@chakra-ui/system': 2.2.2_28db0a4ca0163f5d998b133de2adf2dc
+      '@types/react': 18.0.15
       react: 18.2.0
     dev: false
 
@@ -1484,7 +1500,6 @@ packages:
 
   /@types/prop-types/15.7.5:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
-    dev: true
 
   /@types/react-dom/18.0.6:
     resolution: {integrity: sha512-/5OFZgfIPSwy+YuIBP/FgJnQnsxhZhjjrnxudMddeblOouIodEQ75X14Rr4wGSG/bknL+Omy9iWlLo1u/9GzAA==}
@@ -1498,11 +1513,9 @@ packages:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
       csstype: 3.1.0
-    dev: true
 
   /@types/scheduler/0.16.2:
     resolution: {integrity: sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==}
-    dev: true
 
   /@typescript-eslint/parser/5.30.7_eslint@8.20.0+typescript@4.7.4:
     resolution: {integrity: sha512-Rg5xwznHWWSy7v2o0cdho6n+xLhK2gntImp0rJroVVFkcYFYQ8C8UJTSuTw/3CnExBmPjycjmUJkxVmjXsld6A==}
